@@ -27,10 +27,10 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: 100xdevs/web-app:latest
+        tags: ayushjaiswal1845/paytm-project
 
     - name: Verify Pushed Image
-      run: docker pull 100xdevs/web-app:latest
+      run: docker pull ayushjaiswal1845/paytm-project:latest
 
     - name: Deploy to EC2
       uses: appleboy/ssh-action@master

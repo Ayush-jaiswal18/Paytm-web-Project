@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - Clone the repo
 
 ```jsx
@@ -18,3 +19,7 @@ docker run  -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
     - npx prisma db seed
 - Go to `apps/user-app` , run `npm run dev`
 - Try logging in using phone - 1111111111 , password - alice (See `seed.ts`)
+=======
+# Paytm-web
+Paytm project with NextJS and Monorepo
+>>>>>>> 28b992aeaa23de6fae5badcf758c5248e2d5316f
